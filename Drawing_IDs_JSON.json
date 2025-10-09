@@ -18,12 +18,12 @@
   "Rewarded": "admob",
   "OpenAppAd": "admob",
   
-  "onesignal_id": "016473e9-27ee-4bc9-8789-d20057f3dea5",
+  "onesignal_id": "YOUR_ONESIGNAL_ID",
   
   "clicks_to_show_inter": 2,
   "native_rate": 2,
 
-  "privacy_link": "https://firebasestorage.googleapis.com/v0/b/ar-draw-cineday.appspot.com/o/PrivacyPolicy.html?alt=media&fbclid=IwAR0u5ASb-Ckm0T5uiYlIG-5yrqSMcmev9TD8Rdw8q_ugkjt-hFo-GIpZNWE",
+  "privacy_link": "https://admirable-praline-c39868.netlify.app/privacy%20policy.html",
   
   "is_app_suspended": false,
   "suspended_title": "A new update for this app is available.",
