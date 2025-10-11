@@ -20,12 +20,12 @@
   
   "onesignal_id": "YOUR_ONESIGNAL_ID",
   
-  "clicks_to_show_inter": 2,
-  "native_rate": 2,
+  "clicks_to_show_inter": 4,
+  "native_rate": 4,
 
   "privacy_link": "https://admirable-praline-c39868.netlify.app/privacy%20policy.html",
   
-  "is_app_suspended": true,
+  "is_app_suspended": false,
   "suspended_title": "A new update for this app is available.",
   "suspended_message": "Update this app because this version has some issues.",
   "suspended_URL": "com.roblox.client",
