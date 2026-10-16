@@ -1,0 +1,112 @@
+{
+  "app_update": {
+    "active": false,
+    "is_force_update": true,
+    "latest_version_code": 2,
+    "title": "New Update Available! 🚀",
+    "description": "We have added new streaming sources, faster loading, and bug fixes. Please update the app to continue watching.",
+    "button_text": "Update Now",
+    "update_url": "https://play.google.com/store/apps/details?id=com.cinestream.moviesapp"
+  },
+  "watch_providers_config": {
+    "use_tmdb_official_providers": true,
+    "default_region": "US",
+    "custom_watch_sites": [
+      {
+        "name": "Netflix",
+        "logo_url": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+        "search_url_template": "https://www.netflix.com/search?q={title}"
+      },
+      {
+        "name": "Amazon Prime Video",
+        "logo_url": "https://image.tmdb.org/t/p/original/dQeAar5H991VYporEjUspolDarG.jpg",
+        "search_url_template": "https://www.primevideo.com/search/ref=atv_nb_sr?phrase={title}"
+      },
+      {
+        "name": "JustWatch (All Links)",
+        "logo_url": "https://www.justwatch.com/appassets/img/logo/JustWatch-logo-large.webp",
+        "search_url_template": "https://www.justwatch.com/us/search?q={title}"
+      }
+    ]
+  },
+  "ads_config": {
+    "ads_enabled": true,
+    "primary_network": "admob",
+    "mediation_enabled": true,
+    "app_open_ad_enabled": true,
+    "interstitial_click_threshold": 2,
+    "interstitial_loading_delay_ms": 1500,
+    "native_ads_enabled": true,
+    "native_ad_section_interval": 2,
+    "ad_unit_ids": {
+      "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
+      "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+      "admob_native": "ca-app-pub-3940256099942544/2247696110",
+      "facebook_interstitial": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "facebook_native": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
+      "ironsource_app_key": "85460dcd"
+    }
+  },
+  "home_sections": [
+    {
+      "id": "latest_movies",
+      "title": "Latest Movies",
+      "type": "movie",
+      "tmdb_endpoint": "movie/now_playing",
+      "params": {},
+      "visible_items_count": 5,
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "latest_series",
+      "title": "Latest Series",
+      "type": "tv",
+      "tmdb_endpoint": "tv/on_the_air",
+      "params": {},
+      "visible_items_count": 5,
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "trending_movies",
+      "title": "Trending Movies",
+      "type": "movie",
+      "tmdb_endpoint": "trending/movie/week",
+      "params": {},
+      "visible_items_count": 4,
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "trending_series",
+      "title": "Trending Series",
+      "type": "tv",
+      "tmdb_endpoint": "trending/tv/week",
+      "params": {},
+      "visible_items_count": 4,
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "action_movies",
+      "title": "Action Movies",
+      "type": "movie",
+      "tmdb_endpoint": "discover/movie",
+      "params": { "with_genres": "28", "sort_by": "popularity.desc" },
+      "visible_items_count": 5,
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "horror_movies",
+      "title": "Horror Movies",
+      "type": "movie",
+      "tmdb_endpoint": "discover/movie",
+      "params": { "with_genres": "27", "sort_by": "popularity.desc" },
+      "visible_items_count": 3,
+      "enabled": true,
+      "order": 6
+    }
+  ]
+}
